@@ -82,7 +82,7 @@ learning_rate = 0.2
 nn = nueralnet(input_nodes, hidden_nodes, output_nodes, learning_rate)
 
 # loading the CSV file
-training_data = open('nn_mnist/mnist_train.csv', 'r')
+training_data = open('mnist_dataset/mnist_train_100.csv', 'r')
 training_data_list = training_data.readlines()
 training_data.close()
 
